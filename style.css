@@ -59,7 +59,7 @@ body {
 }
 
 .img-topo-site img {
-    max-width: 100%; /* Imagem ocupa no máximo 100% da largura */
+    max-width: 50%; /* Imagem ocupa no máximo 100% da largura */
     height: auto; /* Altura automática */
     border-radius: 0.5rem; /* Bordas arredondadas na imagem */
 }
