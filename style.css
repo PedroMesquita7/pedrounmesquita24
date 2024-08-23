@@ -65,11 +65,13 @@ body {
     color: #f60; /* Texto em laranja para destacar */
 }
 
+/* Estilizando a imagem da pessoa */
 .img-topo-site img {
-    max-width: 50%; /* Imagem ocupa no máximo 100% da largura */
-    height: auto; /* Altura automática */
-    border-radius: 0.5rem; /* Bordas arredondadas na imagem */
+    width: 100px; /* Ajusta a largura da imagem */
+    height: auto; /* Mantém a proporção da altura automaticamente */
+    border-radius: 10px; /* Bordas levemente arredondadas */
 }
+
 
 /* Seção de habilidades */
 .habilidades-box {
