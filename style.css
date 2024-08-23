@@ -1,0 +1,155 @@
+/* Estilos gerais para o corpo */
+body {
+    font-family: 'Poppins', sans-serif; /* Define a fonte principal */
+    color: #fff; /* Cor do texto branco */
+    background-color: #1a1a1a; /* Fundo cinza escuro */
+    margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+.header {
+    background: #000; /* Fundo preto para o cabeçalho */
+    padding: 1rem; /* Preenchimento interno de 1 rem */
+}
+
+/* Interface */
+.interface {
+    max-width: 1200px; /* Limita a largura máxima a 1200px */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 0 1rem; /* Preenchimento horizontal de 1 rem */
+}
+
+.interface p {
+    margin: 0; /* Remove as margens em torno do texto */
+}
+
+/* Menu Desktop */
+.menu-desktop ul {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento padrão */
+    margin: 0; /* Remove margem padrão */
+    display: flex; /* Exibe itens em linha */
+    gap: 1rem; /* Espaço entre itens */
+}
+
+.menu-desktop a {
+    color: #fff; /* Links com cor branca */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.menu-desktop a:hover {
+    color: #f60; /* Cor laranja ao passar o mouse */
+}
+
+/* Estilos para o topo do site */
+.topo-do-site {
+    padding: 2rem 0; /* Preenchimento vertical de 2 rem */
+}
+
+.txt-topo-site h1 {
+    font-size: 2rem; /* Tamanho da fonte do título */
+}
+
+.highlight {
+    color: #f60; /* Texto em laranja para destacar */
+}
+
+.img-topo-site img {
+    max-width: 100%; /* Imagem ocupa no máximo 100% da largura */
+    height: auto; /* Altura automática */
+    border-radius: 0.5rem; /* Bordas arredondadas na imagem */
+}
+
+/* Seção de habilidades */
+.habilidades-box {
+    background: #333; /* Fundo cinza escuro */
+    padding: 1rem; /* Preenchimento interno de 1 rem */
+    border-radius: 0.5rem; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+}
+
+.habilidades-box h3 {
+    margin: 0.5rem 0; /* Margem vertical de 0.5 rem */
+}
+
+/* Seção de portfólio */
+.portfolio-item {
+    background: #333; /* Fundo cinza escuro */
+    padding: 1rem; /* Preenchimento interno de 1 rem */
+    border-radius: 0.5rem; /* Bordas arredondadas */
+}
+
+/* Seção de contato */
+.contato-info a {
+    display: block; /* Links exibidos como blocos */
+    margin: 0.5rem 0; /* Margem vertical de 0.5 rem */
+    color: #fff; /* Cor do texto branco */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+.contato-info a i {
+    margin-right: 0.5rem; /* Espaço à direita do ícone */
+}
+
+/* Estilo dos títulos */
+.titulo span {
+    color: #f60; /* Texto em laranja */
+}
+
+/* Rodapé */
+.footer {
+    background: #000; /* Fundo preto para o rodapé */
+    padding: 1rem; /* Preenchimento interno de 1 rem */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px; /* Tamanho da fonte */
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sombra do rodapé */
+}
+
+/* Main */
+main {
+    flex: 1;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between; /* Espaçamento igual entre os itens */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+    gap: 20px; /* Espaço de 20px entre os itens */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.habilidades-box,
+.portfolio-item {
+    background: #333; /* Fundo cinza escuro */
+    padding: 1rem; /* Preenchimento interno de 1 rem */
+    border-radius: 0.5rem; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    flex: 1 1 30%; /* Cada item ocupa 30% da largura e pode se ajustar */
+    min-width: 250px; /* Largura mínima para os itens */
+}
+
+/* Define a cor azul bebê para os links com a classe baby-blue-link */
+.baby-blue-link {
+    color: #89CFF0; /* Cor azul bebê */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+}
+
+/* Adiciona um sublinhado ao passar o mouse sobre o link */
+.baby-blue-link:hover {
+    text-decoration: underline;
+}
