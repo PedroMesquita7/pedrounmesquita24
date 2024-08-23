@@ -16,6 +16,13 @@ body {
     padding: 1rem; /* Preenchimento interno de 1 rem */
 }
 
+/* Estilizando a logo */
+.logo img {
+    width: 150px; /* Ajusta a largura da logo */
+    height: auto; /* Mantém a proporção da altura automaticamente */
+}
+
+
 /* Interface */
 .interface {
     max-width: 1200px; /* Limita a largura máxima a 1200px */
